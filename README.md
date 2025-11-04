@@ -4,6 +4,13 @@
 </p>
 
 ---
+### 🧩 Sobre mí
+
+Estudiante de Ingeniería de Sistemas en formación 🎓 con fuerte interés en análisis de datos, estadística aplicada e inteligencia artificial. Me enfoco en transformar información en conocimiento útil utilizando herramientas de análisis, visualización y automatización.
+
+He trabajado con Python, Java, SQL y Power BI, realizando procesos de extracción, limpieza, modelado y visualización de datos. También desarrollo automatizaciones e integraciones con n8n, Docker y APIs, creando soluciones reales como chatbots, consultas inteligentes de archivos y sistemas de análisis para organizaciones.
+
+---
 
 ### 🚀 Tecnologías y Herramientas
 
@@ -22,12 +29,12 @@
 </p>
 
 ---
-
-### 🧩 Sobre mí
-
-Estudiante de Ingeniería de Sistemas en formación 🎓 con fuerte interés en análisis de datos, estadística aplicada e inteligencia artificial. Me enfoco en transformar información en conocimiento útil utilizando herramientas de análisis, visualización y automatización.
-
-He trabajado con Python, Java, SQL y Power BI, realizando procesos de extracción, limpieza, modelado y visualización de datos. También desarrollo automatizaciones e integraciones con n8n, Docker y APIs, creando soluciones reales como chatbots, consultas inteligentes de archivos y sistemas de análisis para organizaciones.
+### 🧠 Habilidades Blandas
+- Trabajo en equipo
+- Comunicación asertiva
+- Aprendizaje autónomo
+- Resolución de problemas
+- Gestión del tiempo
 
 ---
 
