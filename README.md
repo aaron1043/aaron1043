@@ -1,8 +1,6 @@
-<h1 align="center">👋 Hola, soy Aarón Peña</h1>
-
+<!-- Banner estilo terminal -->
 <p align="center">
-Estudiante de <strong>Ingeniería de Sistemas</strong> (8vo semestre) con experiencia en <strong>desarrollo de software</strong> y <strong>análisis de datos</strong>.  
-Apasionado por la automatización, la creación de soluciones tecnológicas y el aprendizaje constante.
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&color=00FF41&center=true&vCenter=true&width=700&height=80&lines=%24+Hola%2C+soy+Aarón+Peña;%24+Analista+de+Datos+en+formación;%24+Desarrollo+de+Software;%24+Estudiante+de+Ingeniería+de+Sistemas" />
 </p>
 
 ---
@@ -27,9 +25,9 @@ Apasionado por la automatización, la creación de soluciones tecnológicas y el
 
 ### 🧩 Sobre mí
 
-✅ Formación en desarrollo web, backend y análisis de datos  
-✅ Experiencia creando soluciones con bases de datos, APIs y dashboards  
-✅ Me gustan los retos y aprender nuevas tecnologías todo el tiempo  
+Estudiante de Ingeniería de Sistemas en formación 🎓 con fuerte interés en análisis de datos, estadística aplicada e inteligencia artificial. Me enfoco en transformar información en conocimiento útil utilizando herramientas de análisis, visualización y automatización.
+
+He trabajado con Python, Java, SQL y Power BI, realizando procesos de extracción, limpieza, modelado y visualización de datos. También desarrollo automatizaciones e integraciones con n8n, Docker y APIs, creando soluciones reales como chatbots, consultas inteligentes de archivos y sistemas de análisis para organizaciones.
 
 ---
 
@@ -49,7 +47,16 @@ Apasionado por la automatización, la creación de soluciones tecnológicas y el
 - **Análisis de nacimientos en Colombia**
   Estudio estadístico usando Jupyter Notebook para explorar datos reales de nacimientos en el país.
   - **Stack:** Python · Jupyter Notebook · Pandas · Seaborn
- 
+
+- **Chat de IA para Escuela Sabática – Sabbath (2025)**
+  - Chat inteligente para miembros de iglesia que permite:
+    - Consultar información sobre las lecciones de Escuela Sabática
+    - Cargar documentos y hacer preguntas sobre su contenido
+    - Interfaz web en producción
+
+    **Stack:** n8n · TypeScript · OpenAI · Gemini · Docker  
+    🌐 Producción: https://sabbath.awrcolombia.online/
+
 ---
 
 ### 📬 Contacto
@@ -61,4 +68,5 @@ Apasionado por la automatización, la creación de soluciones tecnológicas y el
 
 ---
 
-⭐ Si te interesa colaborar o conocer más de mis proyectos, ¡bienvenido a mi perfil!
+🚀 Próximo objetivo:
+  - Especialización en Ciencia de Datos y analítica predictiva
