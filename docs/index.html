@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Portafolio de Aaron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron - Portafolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>¡Hola! Esta es mi página del portafolio 👋</h1>
-    <p>Publicada desde el repositorio aaron1043 usando la carpeta docs.</p>
+
+    <header class="header">
+        <img src="images/foto.jpg" class="perfil" alt="Foto de perfil">
+        <h1>¡Hola! Soy Aaron</h1>
+        <h2>Estudiante de Ingeniería de Sistemas</h2>
+
+        <div class="links">
+            <a href="https://github.com/aaron1043" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aaronpe10/" target="_blank">LinkedIn</a>
+            <a href="l.aarongalvan@gmail.com">Email</a>
+        </div>
+
+        <a class="cv-btn" href="docs/CV.pdf" download>📄 Descargar mi CV</a>
+    </header>
+
+    <section class="about">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy estudiante de Ingeniería de Sistemas con interés en el desarrollo web, backend, 
+            bases de datos y análisis de datos. Me gusta crear soluciones prácticas, aprender nuevas 
+            tecnologías y trabajar en proyectos reales.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-list">
+            <span>✅ Python</span>
+            <span>✅ Java</span>
+            <span>✅ JavaScript</span>
+            <span>✅ HTML & CSS</span>
+            <span>✅ MySQL</span>
+            <span>✅ Git & GitHub</span>
+            <span>✅ Análisis de datos</span>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Proyectos</h2>
+        <div class="project-list">
+
+            <div class="project">
+                <h3>✅ Sistema de Inventario</h3>
+                <p>Aplicación en Python para gestionar productos, cantidades y reportes.</p>
+            </div>
+
+            <div class="project">
+                <h3>✅ App móvil Flutter</h3>
+                <p>Convierte pesos colombianos a otras divisas usando una API externa.</p>
+            </div>
+
+            <div class="project">
+                <h3>✅ Chatbot en n8n</h3>
+                <p>Automatiza respuestas para estudiantes interesados en procesos universitarios.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="certificaciones">
+        <h2>Certificados</h2>
+        <ul>
+            <li>📜 Certificado en análisis de datos</li>
+            <li>📜 Curso de Python</li>
+            <li>📜 Curso de Desarrollo Web</li>
+            <li>📜 Curso de Bases de Datos</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 - Hecho por Aaron</p>
+    </footer>
+
 </body>
 </html>
