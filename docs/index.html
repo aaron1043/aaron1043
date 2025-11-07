@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Aaron - Portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script>
+    const text = "Aaron";
+    let index = 0;
+
+    function typeEffect() {
+        if (index < text.length) {
+            document.getElementById("typed").innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeEffect, 150);
+        }
+    }
+
+    window.onload = typeEffect;
+    </script>
 
     <header class="header">
         <img src="images/foto.jpg" class="perfil" alt="Foto de perfil">
-        <h1>¡Hola! Soy Aaron</h1>
+       <h1>¡Hola! Soy <span id="typed"></span></h1>
         <h2>Estudiante de Ingeniería de Sistemas</h2>
+
 
         <div class="links">
             <a href="https://github.com/aaron1043" target="_blank">GitHub</a>
@@ -19,7 +35,7 @@
             <a href="l.aarongalvan@gmail.com">Email</a>
         </div>
 
-        <a class="cv-btn" href="docs/CV.pdf" download>📄 Descargar mi CV</a>
+        <a class="cv-btn" href="/CV.pdf" download>📄 Descargar mi CV</a>
     </header>
 
     <section class="about">
@@ -45,26 +61,44 @@
     </section>
 
     <section class="projects">
-        <h2>Proyectos</h2>
-        <div class="project-list">
+    <h2>Proyectos Destacados</h2>
+    <div class="project-list">
 
-            <div class="project">
-                <h3>✅ Sistema de Inventario</h3>
-                <p>Aplicación en Python para gestionar productos, cantidades y reportes.</p>
-            </div>
-
-            <div class="project">
-                <h3>✅ App móvil Flutter</h3>
-                <p>Convierte pesos colombianos a otras divisas usando una API externa.</p>
-            </div>
-
-            <div class="project">
-                <h3>✅ Chatbot en n8n</h3>
-                <p>Automatiza respuestas para estudiantes interesados en procesos universitarios.</p>
-            </div>
-
+        <div class="project">
+            <h3>SITAP – RedCOLSI (2023)</h3>
+            <p>Aplicación para agendar citas en el área clínica.</p>
+            <p><strong>Stack:</strong> Java + Spring Boot · Vue.js · Firebase Auth · Docker · PostgreSQL</p>
+            <p>📍 Representación nacional en RedCOLSI como proyecto universitario destacado.</p>
         </div>
-    </section>
+
+        <div class="project">
+            <h3>DataHack – Universidad Pascual Bravo (2025)</h3>
+            <p>Módulo funcional para visualizar indicadores clave de negocio con integración de ciencia de datos.</p>
+            <p><strong>Stack:</strong> Python · Streamlit · Matplotlib · Pandas</p>
+            <p>🏆 3er puesto por lograr un MVP completamente funcional en solo 2 días.</p>
+            <p><em>"Visualización de indicadores clave para gestión empresarial en plataformas ERP"</em></p>
+        </div>
+
+        <div class="project">
+            <h3>Análisis de nacimientos en Colombia</h3>
+            <p>Exploración estadística usando datos reales de nacimientos en el país.</p>
+            <p><strong>Stack:</strong> Python · Jupyter Notebook · Pandas · Seaborn</p>
+        </div>
+
+        <div class="project">
+            <h3>Chat de IA para Escuela Sabática – Sabbath (2025)</h3>
+            <p>Chat inteligente para miembros de iglesia que permite:</p>
+            <ul>
+                <li>Consultar información sobre las lecciones</li>
+                <li>Cargar documentos y hacer preguntas</li>
+                <li>Interfaz web en producción</li>
+            </ul>
+            <p><strong>Stack:</strong> n8n · TypeScript · OpenAI · Gemini · Docker</p>
+            <p>🌐 Producción: <a href="https://sabbath.awrcolombia.online/" target="_blank">https://sabbath.awrcolombia.online/</a></p>
+        </div>
+
+    </div>
+</section>
 
     <section class="certificaciones">
         <h2>Certificados</h2>
