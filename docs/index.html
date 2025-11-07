@@ -9,39 +9,88 @@
 <body>
 
     <!-- ENCABEZADO -->
-     <button id="theme-toggle" class="theme-btn">🌙</button>
-
     <header class="header">
-        <img src="foto.jpg" alt="Foto de perfil" class="perfil">
+        <img src="images/foto.jpg" alt="Foto de perfil" class="perfil">
 
-        <h1 class="typewriter">Aaron Peña — Estudiante de Ingeniería de Sistemas</h1>
-        <p class="pulse-text">Desarrollo de software · Analista de datos en formación</p>
+        <h1 class="typewriter">Aaron Peña</h1>
+            <h2 class="typewriter">Estudiante de Ingeniería de Sistemas - Análisis de Datos </h2>
 
         <div class="links">
-            <a href="https://github.com/aaron1043" target="_blank" class="btn git">GitHub</a>
-            <a href="https://www.linkedin.com/in/aaronpe10" target="_blank" class="btn linkedin">LinkedIn</a>
-            <a href="mailto:l.aarongalvan@gmail.com?subject=Contacto%20Portafolio" class="btn email">Email</a>
+            <a href="https://github.com/aaron1043" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aaronpe10" target="_blank">LinkedIn</a>
+            <a href="mailto:l.aarongalvan@gmail.com" target="_blank">Email</a>
         </div>
 
         <a href="CV.pdf" download class="btn-cv">📄 Descargar CV</a>
     </header>
 
-    <!-- HABILIDADES -->
+
+    <!-- SOBRE MI -->
     <section>
-        <h2>Habilidades</h2>
-        <div class="skills-list">
-            <span><img src="icons/java.png"> Java</span>
-            <span><img src="icons/python.png"> Python</span>
-            <span><img src="icons/spring.png"> Spring Boot</span>
-            <span><img src="icons/docker.png"> Docker</span>
-            <span><img src="icons/js.png"> JavaScript</span>
-            <span><img src="icons/git.png"> Git</span>
-        </div>
+        <h2>🧩 Sobre mí</h2>
+        <p class="about">
+            Estudiante de Ingeniería de Sistemas 🎓 con fuerte interés en análisis de datos, estadística aplicada e inteligencia artificial.
+            Me enfoco en transformar información en conocimiento útil utilizando herramientas de análisis, visualización y automatización.
+            <br><br>
+            He trabajado con Python, Java, SQL y Power BI, realizando procesos de extracción, limpieza, modelado y visualización de datos.  
+            También desarrollo automatizaciones e integraciones con n8n, Docker y APIs, creando soluciones reales como chatbots,
+            consultas inteligentes de archivos y sistemas de análisis para organizaciones.
+        </p>
     </section>
+
+
+    <!-- TECNOLOGÍAS -->
+    <section id="tecnologias">
+    <h2>🚀 Tecnologías y Herramientas</h2>
+
+    <div class="tech-container">
+
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" title="Vue.js"/>
+
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" title="Docker"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" title="GitHub"/>
+
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" title="MySQL"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" title="Firebase"/>
+
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" title="Pandas"/>
+        <img class="tech-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" title="Jupyter Notebook"/>
+        
+        <img class="tech-logo" src="https://cdn.worldvectorlogo.com/logos/power-bi.svg" title="Power BI"/>
+
+        <img class="tech-logo" src="https://avatars.githubusercontent.com/u/45487711?s=200&v=4" title="n8n"/>
+
+        <img class="tech-logo" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" title="OpenAI"/>
+
+
+
+    </div>
+</section>
+
+
+
+    <!-- HABILIDADES BLANDAS -->
+    <section>
+        <h2>🧠 Habilidades Blandas</h2>
+        <ul class="soft-list">
+            <li>✅ Trabajo en equipo</li>
+            <li>✅ Comunicación asertiva</li>
+            <li>✅ Aprendizaje autónomo</li>
+            <li>✅ Resolución de problemas</li>
+            <li>✅ Gestión del tiempo</li>
+        </ul>
+    </section>
+
 
     <!-- PROYECTOS -->
     <section>
-        <h2>Proyectos Destacados</h2>
+        <h2>📌 Proyectos Destacados</h2>
         <div class="project-list">
 
             <div class="project">
@@ -52,66 +101,45 @@
                     <li>Vue.js · Firebase Auth</li>
                     <li>Docker · PostgreSQL</li>
                 </ul>
-                <p>📍 Representación nacional por la universidad</p>
+                <p>📍 Participación nacional representando a la universidad</p>
             </div>
 
             <div class="project">
                 <h3>DataHack – Universidad Pascual Bravo (2025)</h3>
-                <p>Módulo para visualizar indicadores empresariales con ciencia de datos.</p>
+                <p>Visualización de indicadores clave de negocio.</p>
                 <ul>
                     <li>Python · Streamlit</li>
                     <li>Matplotlib · Pandas</li>
                 </ul>
-                <p>🏆 3er puesto del evento con MVP en 2 días</p>
+                <p>🏆 3er puesto — MVP en 2 días</p>
+                <p>📌 Proyecto: “Visualización de indicadores clave para gestión empresarial en plataformas ERP”</p>
             </div>
 
             <div class="project">
                 <h3>Análisis de nacimientos en Colombia</h3>
-                <p>Estudio estadístico usando datos reales.</p>
+                <p>Estudio estadístico con datos reales.</p>
                 <ul>
-                    <li>Python · Pandas · Seaborn</li>
+                    <li>Python · Jupyter Notebook · Pandas · Seaborn</li>
                 </ul>
             </div>
 
             <div class="project">
                 <h3>Chat de IA — Sabbath (2025)</h3>
-                <p>Chat inteligente con lectura de documentos y consultas sobre contenido.</p>
+                <p>Chat inteligente con lectura de documentos y preguntas sobre su contenido.</p>
                 <ul>
-                    <li>n8n · TypeScript · OpenAI · Docker</li>
+                    <li>n8n · TypeScript · OpenAI · Gemini · Docker</li>
                 </ul>
-                <p>🌐 Producción: <a href="https://sabbath.awrcolombia.online/" target="_blank">Abrir sitio</a></p>
+                <p>🌐 Producción: <a href="https://sabbath.awrcolombia.online/" target="_blank">
+                    https://sabbath.awrcolombia.online/</a></p>
             </div>
 
         </div>
     </section>
 
+
     <footer>
         © 2025 - Aaron Peña
     </footer>
-
-
-    <script>
-    const toggleBtn = document.getElementById("theme-toggle");
-    const body = document.body;
-
-    // Cargar modo guardado
-    if (localStorage.getItem("theme") === "light") {
-        body.classList.add("light-mode");
-        toggleBtn.textContent = "☀️";
-    }
-
-    toggleBtn.addEventListener("click", () => {
-        body.classList.toggle("light-mode");
-
-        if (body.classList.contains("light-mode")) {
-            toggleBtn.textContent = "☀️";
-            localStorage.setItem("theme", "light");
-        } else {
-            toggleBtn.textContent = "🌙";
-            localStorage.setItem("theme", "dark");
-        }
-    });
-    </script>
 
 </body>
 </html>
