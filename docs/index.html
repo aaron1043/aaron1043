@@ -3,116 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <title>Aaron - Portafolio</title>
+    <title>Portafolio - Aaron Peña</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script>
-    const text = "Aaron";
-    let index = 0;
 
-    function typeEffect() {
-        if (index < text.length) {
-            document.getElementById("typed").innerHTML += text.charAt(index);
-            index++;
-            setTimeout(typeEffect, 150);
-        }
-    }
-
-    window.onload = typeEffect;
-    </script>
+    <!-- ENCABEZADO -->
+     <button id="theme-toggle" class="theme-btn">🌙</button>
 
     <header class="header">
-        <img src="images/foto.jpg" class="perfil" alt="Foto de perfil">
-       <h1 class="pulse">Aaron Peña</h1>
-        <h2 class="pulse">Estudiante de Ingeniería de Sistemas</h2>
+        <img src="foto.jpg" alt="Foto de perfil" class="perfil">
 
+        <h1 class="typewriter">Aaron Peña — Estudiante de Ingeniería de Sistemas</h1>
+        <p class="pulse-text">Desarrollo de software · Analista de datos en formación</p>
 
         <div class="links">
-            <a href="https://github.com/aaron1043" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/aaronpe10/" target="_blank">LinkedIn</a>
-            <a href="l.aarongalvan@gmail.com">Email</a>
+            <a href="https://github.com/aaron1043" target="_blank" class="btn git">GitHub</a>
+            <a href="https://www.linkedin.com/in/aaronpe10" target="_blank" class="btn linkedin">LinkedIn</a>
+            <a href="mailto:l.aarongalvan@gmail.com?subject=Contacto%20Portafolio" class="btn email">Email</a>
         </div>
-        <a href="CV.pdf" download class="btn-cv">📄 Descargar CV</a>
 
+        <a href="CV.pdf" download class="btn-cv">📄 Descargar CV</a>
     </header>
 
-    <section class="about">
-        <h2>Sobre mí</h2>
-        <p>
-            Soy estudiante de Ingeniería de Sistemas con interés en el desarrollo web, backend, 
-            bases de datos y análisis de datos. Me gusta crear soluciones prácticas, aprender nuevas 
-            tecnologías y trabajar en proyectos reales.
-        </p>
-    </section>
-
-    <section class="skills">
+    <!-- HABILIDADES -->
+    <section>
         <h2>Habilidades</h2>
         <div class="skills-list">
-            <span>✅ Python</span>
-            <span>✅ Java</span>
-            <span>✅ JavaScript</span>
-            <span>✅ HTML & CSS</span>
-            <span>✅ MySQL</span>
-            <span>✅ Git & GitHub</span>
-            <span>✅ Análisis de datos</span>
+            <span><img src="icons/java.png"> Java</span>
+            <span><img src="icons/python.png"> Python</span>
+            <span><img src="icons/spring.png"> Spring Boot</span>
+            <span><img src="icons/docker.png"> Docker</span>
+            <span><img src="icons/js.png"> JavaScript</span>
+            <span><img src="icons/git.png"> Git</span>
         </div>
     </section>
 
-    <section class="projects">
-    <h2>Proyectos Destacados</h2>
-    <div class="project-list">
+    <!-- PROYECTOS -->
+    <section>
+        <h2>Proyectos Destacados</h2>
+        <div class="project-list">
 
-        <div class="project">
-            <h3>SITAP – RedCOLSI (2023)</h3>
-            <p>Aplicación para agendar citas en el área clínica.</p>
-            <p><strong>Stack:</strong> Java + Spring Boot · Vue.js · Firebase Auth · Docker · PostgreSQL</p>
-            <p>📍 Representación nacional en RedCOLSI como proyecto universitario destacado.</p>
+            <div class="project">
+                <h3>SITAP – RedCOLSI (2023)</h3>
+                <p>Aplicación para agendar citas en el área clínica.</p>
+                <ul>
+                    <li>Java + Spring Boot</li>
+                    <li>Vue.js · Firebase Auth</li>
+                    <li>Docker · PostgreSQL</li>
+                </ul>
+                <p>📍 Representación nacional por la universidad</p>
+            </div>
+
+            <div class="project">
+                <h3>DataHack – Universidad Pascual Bravo (2025)</h3>
+                <p>Módulo para visualizar indicadores empresariales con ciencia de datos.</p>
+                <ul>
+                    <li>Python · Streamlit</li>
+                    <li>Matplotlib · Pandas</li>
+                </ul>
+                <p>🏆 3er puesto del evento con MVP en 2 días</p>
+            </div>
+
+            <div class="project">
+                <h3>Análisis de nacimientos en Colombia</h3>
+                <p>Estudio estadístico usando datos reales.</p>
+                <ul>
+                    <li>Python · Pandas · Seaborn</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Chat de IA — Sabbath (2025)</h3>
+                <p>Chat inteligente con lectura de documentos y consultas sobre contenido.</p>
+                <ul>
+                    <li>n8n · TypeScript · OpenAI · Docker</li>
+                </ul>
+                <p>🌐 Producción: <a href="https://sabbath.awrcolombia.online/" target="_blank">Abrir sitio</a></p>
+            </div>
+
         </div>
-
-        <div class="project">
-            <h3>DataHack – Universidad Pascual Bravo (2025)</h3>
-            <p>Módulo funcional para visualizar indicadores clave de negocio con integración de ciencia de datos.</p>
-            <p><strong>Stack:</strong> Python · Streamlit · Matplotlib · Pandas</p>
-            <p>🏆 3er puesto por lograr un MVP completamente funcional en solo 2 días.</p>
-            <p><em>"Visualización de indicadores clave para gestión empresarial en plataformas ERP"</em></p>
-        </div>
-
-        <div class="project">
-            <h3>Análisis de nacimientos en Colombia</h3>
-            <p>Exploración estadística usando datos reales de nacimientos en el país.</p>
-            <p><strong>Stack:</strong> Python · Jupyter Notebook · Pandas · Seaborn</p>
-        </div>
-
-        <div class="project">
-            <h3>Chat de IA para Escuela Sabática – Sabbath (2025)</h3>
-            <p>Chat inteligente para miembros de iglesia que permite:</p>
-            <ul>
-                <li>Consultar información sobre las lecciones</li>
-                <li>Cargar documentos y hacer preguntas</li>
-                <li>Interfaz web en producción</li>
-            </ul>
-            <p><strong>Stack:</strong> n8n · TypeScript · OpenAI · Gemini · Docker</p>
-            <p>🌐 Producción: <a href="https://sabbath.awrcolombia.online/" target="_blank">https://sabbath.awrcolombia.online/</a></p>
-        </div>
-
-    </div>
-</section>
-
-    <section class="certificaciones">
-        <h2>Certificados</h2>
-        <ul>
-            <li>📜 Certificado en análisis de datos</li>
-            <li>📜 Curso de Python</li>
-            <li>📜 Curso de Desarrollo Web</li>
-            <li>📜 Curso de Bases de Datos</li>
-        </ul>
     </section>
 
     <footer>
-        <p>© 2025 - Hecho por Aaron</p>
+        © 2025 - Aaron Peña
     </footer>
+
+
+    <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    const body = document.body;
+
+    // Cargar modo guardado
+    if (localStorage.getItem("theme") === "light") {
+        body.classList.add("light-mode");
+        toggleBtn.textContent = "☀️";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+        body.classList.toggle("light-mode");
+
+        if (body.classList.contains("light-mode")) {
+            toggleBtn.textContent = "☀️";
+            localStorage.setItem("theme", "light");
+        } else {
+            toggleBtn.textContent = "🌙";
+            localStorage.setItem("theme", "dark");
+        }
+    });
+    </script>
 
 </body>
 </html>
