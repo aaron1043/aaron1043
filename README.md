@@ -6,9 +6,13 @@
 ---
 ### 🧩 Sobre mí
 
-Estudiante de Ingeniería de Sistemas en formación 🎓 con fuerte interés en análisis de datos, estadística aplicada e inteligencia artificial. Me enfoco en transformar información en conocimiento útil utilizando herramientas de análisis, visualización y automatización.
-
-He trabajado con Python, Java, SQL y Power BI, realizando procesos de extracción, limpieza, modelado y visualización de datos. También desarrollo automatizaciones e integraciones con n8n, Docker y APIs, creando soluciones reales como chatbots, consultas inteligentes de archivos y sistemas de análisis para organizaciones.
+ESoy estudiante de noveno semestre de Ingeniería de Sistemas con enfoque en análisis e ingeniería de datos. Tengo experiencia en proyectos trabajando con Python (Pandas, NumPy, Polars), MySQL y procesamiento de datos, desarrollando procesos ETL, limpieza, transformación y análisis de información.
+ 
+He trabajado en integración y consolidación de datos desde múltiples fuentes (como bases de datos y archivos), así como en la construcción de modelos básicos de predicción y generación de indicadores para análisis. También he participado en el desarrollo de soluciones que combinan datos con aplicaciones (Python, Flutter), entendiendo el ciclo completo de la información.
+ 
+Me interesa diseñar soluciones que optimicen el flujo y la calidad de los datos, generando insights que apoyen la toma de decisiones. Me caracterizo por mi pensamiento analítico, aprendizaje continuo y adaptabilidad.
+ 
+Actualmente busco oportunidades donde pueda seguir creciendo en el área de datos y aportar valor mediante soluciones basadas en datos
 
 ---
 
