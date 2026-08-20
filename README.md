@@ -6,7 +6,7 @@
 ---
 ### 🧩 Sobre mí
 
-ESoy estudiante de noveno semestre de Ingeniería de Sistemas con enfoque en análisis e ingeniería de datos. Tengo experiencia en proyectos trabajando con Python (Pandas, NumPy, Polars), MySQL y procesamiento de datos, desarrollando procesos ETL, limpieza, transformación y análisis de información.
+ESoy estudiante de último semestre de Ingeniería de Sistemas con enfoque en análisis e ingeniería de datos. Tengo experiencia en proyectos trabajando con Python (Pandas, NumPy, Polars), MySQL y procesamiento de datos, desarrollando procesos ETL, limpieza, transformación y análisis de información.
  
 He trabajado en integración y consolidación de datos desde múltiples fuentes (como bases de datos y archivos), así como en la construcción de modelos básicos de predicción y generación de indicadores para análisis. También he participado en el desarrollo de soluciones que combinan datos con aplicaciones (Python, Flutter), entendiendo el ciclo completo de la información.
  
